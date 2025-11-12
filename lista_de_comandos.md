@@ -1,6 +1,6 @@
 # Git comands and Instructions 
 
-## Preparo do develop area
+## Rotina basica para adicionar versao na linha do tempo
 
 1. git init  - dentro da pasta, que voce quer iniciar o projeto
 
@@ -10,6 +10,6 @@
 
 `git add`
 
-2. git commit -m <mensagem significativa> 
+2. git commit -m <mensagem significativa>, nessa mensagem é importante deixar registrado as motivacoes para as alteracoes no arquivo - e quais estratégias que voce utilizou
 
 `git commit -m`
