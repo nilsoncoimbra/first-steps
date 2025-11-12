@@ -7,7 +7,7 @@
 ## Notas sobre o commit
 
 
--  **Por quê** houve uma mudança
+- **Por quê** houve uma mudança
 - **Como** o problema foi resolvido
 - **Efeitos** causados pelas alteraçoes
 - **Limitaçoes** das atualizaçoes feitas
@@ -28,6 +28,10 @@
     Stagin arquivos relacionados, cria um historico logico e com melhor acompanhamento
 3. Apos a configuracao do git remoto, associar o git local ao remoto pelo comando 
     `git remote add origin <endereco_do_git_remoto>`
+5. .gitignore - lista todos os arquivos e diretorios, dentro do gitlocal, que nao serao carregados ou transmitidos via push para o git remoto
+6. README.md, cria o arquivo com instrucoes para o usuario ou developer configurar os primeiros passos ou guia-lo para execucacao da analise. 
+
+
 
 
 

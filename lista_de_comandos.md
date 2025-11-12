@@ -59,3 +59,10 @@ Mais opçoes em git log
 `git branch -M main``
 
 8. git remote add origin <endereço do projeto remoto>, associa seu git local com o projeto remoto e depois pode passar os arquivos para o local de destino.
+
+9. git push --set-upstream origin main, para alinhar o trackemento do git ao branch principal
+
+
+9. git push - é comando para enviar os arquivos do git local para o git remoto, que foi configurado no passo acima 
+
+`git push` 
