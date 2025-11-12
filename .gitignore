@@ -1,0 +1,11 @@
+# Arquivos sem backup (com backup externo)
+
+## Lista de Arquivos
+
+file.pdf
+.gitignore
+
+## Lista de pastas
+
+data/data.txt
+data/
