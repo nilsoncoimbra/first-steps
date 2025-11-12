@@ -17,7 +17,7 @@
 1. Area de desenvolvimento: ambiente ou pasta que o projeto esta inserido 
 2. Staging Area: uma área intermediária de armazenamento, entre os dados originais e o repositório (GitHub). Nesta área, os dados são transformados, integrados e preparados para o carregamento no
 3. Repositorio Local: É o proprio git, a parte que administra o versionamnto do codigo (i.e linha do tempo) ou a pasta oculta ".git" que fica oculta dentro do seu diretorio 
-
+4. Repositorio Remoto, GitHub (cria um diretorio no repositorio e acrescenta ao projeto)
 
 ## Boas praticas 
 
@@ -26,6 +26,9 @@
     Staging all documents, pode ser insuficiente e gerar um historico confuso
     Staging one at time, pode gerar um historico repetitivo 
     Stagin arquivos relacionados, cria um historico logico e com melhor acompanhamento
+3. Apos a configuracao do git remoto, associar o git local ao remoto pelo comando 
+    `git remote add origin <endereco_do_git_remoto>`
+
 
 
 

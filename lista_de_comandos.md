@@ -53,3 +53,9 @@ Mais opçoes em git log
 6. git show - mostra os dois arquivos e as modificaçoes pareadas 
 
 `git show <old_ID> <new_ID>`
+
+7. git branch - cria/rennomeia a ramificacao principal do projeto
+
+`git branch -M main``
+
+8. git remote add origin <endereço do projeto remoto>, associa seu git local com o projeto remoto e depois pode passar os arquivos para o local de destino.
