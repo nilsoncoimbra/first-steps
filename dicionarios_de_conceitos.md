@@ -30,8 +30,10 @@
     `git remote add origin <endereco_do_git_remoto>`
 5. .gitignore - lista todos os arquivos e diretorios, dentro do gitlocal, que nao serao carregados ou transmitidos via push para o git remoto
 6. README.md, cria o arquivo com instrucoes para o usuario ou developer configurar os primeiros passos ou guia-lo para execucacao da analise. 
+7. Para sincronizar novos arquivos entre diferentes maquinas, git pull e git push, podem ser utilizados para essa tarefa. 
 
-
+`git push` - envia do git local para o git remoto
+`git pull` - tras do git remoto para o git local
 
 
 

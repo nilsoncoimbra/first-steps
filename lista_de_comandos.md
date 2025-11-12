@@ -66,3 +66,23 @@ Mais opçoes em git log
 9. git push - é comando para enviar os arquivos do git local para o git remoto, que foi configurado no passo acima 
 
 `git push` 
+
+10. Rotina e boas praticias do git
+
+Checando _status_ dos arquivos, adicionando na _staging area_, fazer o _commit_ para salvar na linha do tempo e fazer o _push_ para enviar
+ao GitHub
+
+```
+git status
+
+git add <nome do arquivo>
+
+git commit -m "Mensagem significativa"
+
+git push
+
+```
+
+11. git pull - sincroniza os arquivos entre maquinas e instancias, para que o projeto seja atualizado -> envia do remoto ao local, enquanto que o push envia do local ao remoto
+
+`git pull`
