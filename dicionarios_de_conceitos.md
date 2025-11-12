@@ -51,3 +51,11 @@ ________________Break Page___________________________
 - topicos
 
 * topicos
+
+## Colaboração
+
+1. Envie o convite via GitHub
+2. Aguarde aceitacao do colaborador
+3. git clone
+4. Realize edicoes
+5. git push
