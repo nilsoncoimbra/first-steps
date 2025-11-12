@@ -18,6 +18,16 @@
 2. Staging Area: uma área intermediária de armazenamento, entre os dados originais e o repositório (GitHub). Nesta área, os dados são transformados, integrados e preparados para o carregamento no
 3. Repositorio Local: É o proprio git, a parte que administra o versionamnto do codigo (i.e linha do tempo) ou a pasta oculta ".git" que fica oculta dentro do seu diretorio 
 
+
+## Boas praticas 
+
+1. Voce nao deve salvar dados. Git foi pensado para scripts e textos, e nao armazenamento de dados. 
+2. Staging antes de salvar: para manipulacao diaria de muitos arquivos, é uma boa pratica acrescentar os arquivos na staging area para que todos sejam "comitados" ao mesmo tempo, e também entender o historico da linha do tempo. 
+    Staging all documents, pode ser insuficiente e gerar um historico confuso
+    Staging one at time, pode gerar um historico repetitivo 
+    Stagin arquivos relacionados, cria um historico logico e com melhor acompanhamento
+
+
 ________________Break Page___________________________
 
 **Negrito** __Italico__

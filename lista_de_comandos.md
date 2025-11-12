@@ -10,6 +10,12 @@
 
 `git add`
 
-2. git commit -m <mensagem significativa>, nessa mensagem é importante deixar registrado as motivacoes para as alteracoes no arquivo - e quais estratégias que voce utilizou
+3. git commit -m <mensagem significativa>, nessa mensagem é importante deixar registrado as motivacoes para as alteracoes no arquivo - e quais estratégias que voce utilizou
 
 `git commit -m`
+
+
+3. git status - mostra o status do seu projeto (__uncommited__, __unstaged__, __untracked__)
+
+`git status`
+
