@@ -19,3 +19,37 @@
 
 `git status`
 
+4. git log  - mostra o historico das modificacaoes feitas com o git commit 
+
+`git log -n <#>` -git log --pretty=format onde # é o numero de commit
+
+`git log --abbrev-commit` - menor ID possivel considerando o historico
+
+Mais opçoes em git log
+
+`-p` -  Mostra o patch introduzido com cada commit.
+
+`--stat` - Mostra estatísticas de arquivos modificados em cada commit.
+
+`--shortstat` - Exibe apenas a linha informando a alteração, inserção e exclusão do comando --stat.
+
+`--name-only` - Mostra a lista de arquivos modificados após as informações de commit.
+
+`--name-status` - Mostra também a lista de arquivos que sofreram modificação com informações adicionadas / modificadas / excluídas.
+
+`--abbrev-commit` - Mostra apenas os primeiros caracteres da soma de verificação SHA-1 em vez de todos os 40.
+
+`--relative-date` - Exibe a data em um formato relativo (por exemplo, ‘` 2 semanas atrás '’) em vez de usar o formato de data completo.
+
+`--graph` - Exibe um gráfico ASCII do histórico de branches e merges ao lado da saída do log.
+
+`--pretty` - Mostra os commits em um formato alternativo. As opções incluem oneline, short, full, fuller e format (onde você especifica seu próprio formato).
+
+5. git diff - Mostra as diferencas entre os arquivos (combinados)
+
+`git diff` <old_ID> <new_ID>`
+
+
+6. git show - mostra os dois arquivos e as modificaçoes pareadas 
+
+`git show <old_ID> <new_ID>`
