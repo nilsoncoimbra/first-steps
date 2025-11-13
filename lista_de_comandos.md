@@ -86,3 +86,13 @@ git push
 11. git pull - sincroniza os arquivos entre maquinas e instancias, para que o projeto seja atualizado -> envia do remoto ao local, enquanto que o push envia do local ao remoto
 
 `git pull`
+
+12. git clone  - copia todos os arquivos do git remoto para o computador local 
+
+`git clone`
+
+13. git branch - cria uma nova ramificacao na linha do tempo principal
+
+`git branch <nome_do_branch>` 
+`git branch --list`, lista as ramificacaoes
+`git checkout <nome_do_branch> `
