@@ -91,7 +91,7 @@ git push
 
 `git clone`
 
-13. git branch - cria uma nova ramificacao na linha do tempo principal
+13. git branch - sao linhas do tempo paralelas que permitem trabalhar em equipe d forma organizada ou testar debugs quando eu trabalho sozinho - cria uma nova ramificacao na linha do tempo principal
 
 `git branch <nome_do_branch>` 
 `git branch --list`, lista as ramificacaoes
