@@ -95,3 +95,4 @@ git push
 
 `git branch --list ` - lista os branches existentes no projeto 
 
+13) git commit sem mensagem
