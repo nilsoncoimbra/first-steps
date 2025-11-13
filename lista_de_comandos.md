@@ -85,4 +85,13 @@ git push
 
 11. git pull - sincroniza os arquivos entre maquinas e instancias, para que o projeto seja atualizado -> envia do remoto ao local, enquanto que o push envia do local ao remoto
 
-`git pull`
+
+12. Trabalhando com branches - # boas praticas para trabalhar em colaboracao em linhas do tempo paralelas e atualizacoes - acrescentar nome da pessoa no branch e descrever minusciosamente o que precisa ser feito.
+
+
+`git branch <nome do branch>` - cria um novo branch na linha principal 
+
+`git checkout <nome do branch>` - muda para o branch requisitado
+
+`git branch --list ` - lista os branches existentes no projeto 
+
